@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CSS only Tabs &amp; Smoothing Anchor ( hash + id )</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="tabs" class="responsive sticky-top bg-white">
+        <div class="tabs tabs-center">
+            <a href="#responsive" class="tab active">
+                responsive
+            </a>
+            <a href="#center" class="tab">
+                center
+            </a>
+            <a href="#justify" class="tab">
+                justify
+            </a>
+            <a href="#sticky" class="tab">
+                sticky
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="title animated bounceIn">Pure Css Tabs</h1>
+        <div id="responsive" class="content">
+            <h1>Responsive</h1>
+            <p>Responsive for <strong>multiple items</strong></p>
+            <code>.responsive ( wrap .tabs )</code>
+            <div class="responsive bg-white">
+                <div class="tabs">
+                    <a class="tab active">item</a>
+                    <a class="tab">item</a>
+                    <a class="tab">item</a>
+                    <a class="tab">item</a>
+                    <a class="tab">item</a>
+                    <a class="tab">item</a>
+                    <a class="tab">item</a>
+                    <a class="tab">item</a>
+                    <a class="tab">item</a>
+                    <a class="tab">item</a>
+                    <a class="tab">item</a>
+                    <a class="tab">item</a>
+                    <a class="tab">item</a>
+                    <a class="tab">item</a>
+                    <a class="tab">item</a>
+                    <a class="tab">item</a>
+                    <a class="tab">item</a>
+                    <a class="tab">item</a>
+                    <a class="tab">item</a>
+                    <a class="tab">item</a>
+                    <a class="tab">item</a>
+                </div>
+            </div>
+        </div>
+        <div id="center" class="content">
+            <h1>center</h1>
+            <code>.tabs-center</code>
+            <div class="tabs tabs-center">
+                <a class="tab active">I</a>
+                <a class="tab">am</a>
+                <a class="tab">an</a>
+                <a class="tab">amazing</a>
+                <a class="tab">tab</a>
+            </div>
+        </div>
+        <div id="justify" class="content">
+            <h1>justify</h1>
+            <p>The tab width is <strong>evenly distributed</strong> according to the container width</p>
+            <code>.tabs-justify</code>
+            <div class="tabs tabs-justify">
+                <a class="tab active" style="background: rgba(0,0,0,.05)">I</a>
+                <a class="tab" style="background: rgba(0,0,0,.03)">am</a>
+                <a class="tab" style="background: rgba(0,0,0,.05)">an</a>
+                <a class="tab" style="background: rgba(0,0,0,.03)">amazing</a>
+                <a class="tab" style="background: rgba(0,0,0,.05)">tab</a>
+            </div>
+        </div>
+        <div id="sticky" class="content">
+            <h1>sticky</h1>
+            <p>Sticky the tabs to the upper container</p>
+            <code>.sticky-top</code>
+            <div class="content bg-white" style="overflow-y: auto; height: 150px;">
+                <p>scroll me</p>
+                <p>scroll me</p>
+                <div class="bg-white sticky-top" style="margin-bottom: 1.5em;">
+                    <div class="tabs">
+                        <a class="tab active">
+                               will
+                           </a>
+                        <a class="tab">
+                               be
+                           </a>
+                        <a class="tab">
+                               sticky
+                           </a>
+                    </div>
+                </div>
+                <p>scroll me</p>
+                <p>scroll me</p>
+                <p>scroll me</p>
+                <p>scroll me</p>
+                <p>scroll me</p>
+                <p>scroll me</p>
+                <p>scroll me</p>
+                <p>scroll me</p>
+                <p>scroll me</p>
+                <p>scroll me</p>
+                <p>scroll me</p>
+                <p>scroll me</p>
+                <p>scroll me</p>
+                <p>scroll me</p>
+                <p>scroll me</p>
+                <p>scroll me</p>
+                <p>scroll me</p>
+                <p>scroll me</p>
+                <p>scroll me</p>
+                <p>scroll me</p>
+                <p>scroll me</p>
+            </div>
+        </div>
+    </div>
+    <header id="footer">
+        <div id="logo">
+            <img src="http://aoyue.com.tw/images/logo.svg" width="120">
+        </div>
+        <p>Powered by Aoyue Design,<br>Taiwan Taipei</p>
+    </header>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
